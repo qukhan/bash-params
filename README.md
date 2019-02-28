@@ -3,7 +3,7 @@ Simple parameter parsing and help message generation for bash scripts.
 
 Note: a `--help` parameter is created by the script.
 
-####Usage
+#### Usage
 The most basic use case is to create a parameter to parse. A variable with the parameter name is created. Kepping only the uppercased latin letters.
 ````bash
 source bash-params.sh
