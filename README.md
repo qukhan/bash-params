@@ -31,7 +31,7 @@ param-def param-name :! "Parameter description" :- "default value"
 ````
 
 
-####Customizing the parse
+#### Customizing the parse
 You can customize how a parameter is treated during the parse. In order to do so, before calling `param-parse "$@"` you must redefine the corresponding parse function `parameters-param-name` where `param-name` is the name of your parameter. This function is given all the arguments following its own one and must return the number of arguments that it consumes.
 ````bash
 source bash-param.sh
